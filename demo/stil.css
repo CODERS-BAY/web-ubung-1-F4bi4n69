@@ -57,6 +57,7 @@ footer {
   border-top: red;
   border-top-width: 4px;
   border-top-style: solid;
+  text-align: right;
 }
 
 img {
