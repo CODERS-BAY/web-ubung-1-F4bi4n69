@@ -3,18 +3,23 @@ body {
   font-family: "Helvetica Neue", Arial, sans-serif;
   line-height: 1.4;
   color: #263238;
-  background-color: #ffffff;
+  background-color: #cccccc;
   margin: 0;
+
 }
  h1 {
   font-size: 3rem;
-  font-weight: normal;
+  font-weight: bold;
   text-align: center;
   padding: 2rem;
   margin: 0;
+  text-shadow: 2px 2px white;
 }
 nav {
   background-color: #263238;
+  border-bottom: red;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
 }
 nav ul {
   margin: 0;
@@ -29,6 +34,7 @@ nav a {
 }
 nav a.aktuell {
   font-weight: bold;
+  color: #969696;
 }
 main {
   max-width: 62rem;
@@ -39,17 +45,38 @@ article {
   width: 50%;
   margin: 0 2rem;
 }
+h2 {
+  text-align: center;
+  text-shadow: 1px 1px white;
+}
 footer {
   background-color: #263238;
   color: #ffffff;
   padding: 2rem;
   margin-top: 1rem;
+  border-top: red;
+  border-top-width: 4px;
+  border-top-style: solid;
 }
 
 img {
   max-width: 100%;
   height: auto;
 }
+
+a:link {
+  color: #646464;
+}
+a:visited {
+  color: #ffffff;
+}
+a:hover {
+  color: white;
+}
+a:active {
+  color: rgb(255, 0, 0);
+}
+
 @media screen and (max-width: 530px) {
   main {
     display: block;
